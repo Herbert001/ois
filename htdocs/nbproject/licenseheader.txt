@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (C) Karsten Kluge 
+${licensePrefix}This file is part of {project} ${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
